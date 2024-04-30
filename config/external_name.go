@@ -10,7 +10,7 @@ import "github.com/crossplane/upjet/pkg/config"
 // provider.
 var ExternalNameConfigs = map[string]config.ExternalName{
 	// Import requires using a randomly generated ID from provider: nl-2e21sda
-	"null_resource": config.IdentifierFromProvider,
+	"null_resource":     config.IdentifierFromProvider,
 	"github_repository": config.NameAsIdentifier,
 	// The import ID consists of several parameters. We'll use branch name as
 	// the external name.

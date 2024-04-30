@@ -27,8 +27,8 @@ const (
 	errUnmarshalCredentials = "cannot unmarshal github credentials as JSON"
 
 	keyBaseURL = "base_url"
-	keyOwner = "owner"
-	keyToken = "token"
+	keyOwner   = "owner"
+	keyToken   = "token"
 )
 
 // TerraformSetupBuilder builds Terraform a terraform.SetupFn function which
